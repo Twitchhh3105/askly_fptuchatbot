@@ -1,0 +1,53 @@
+# Core FastAPI
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Configuration
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+python-dotenv>=1.0.0
+
+# PDF Processing
+pymupdf>=1.23.0
+unstructured[pdf]>=0.12.0
+unstructured-inference>=0.7.0
+pillow>=10.2.0
+pytesseract>=0.3.10
+pdf2image>=1.17.0
+camelot-py[cv]>=0.11.0
+pdfplumber>=0.10.3
+
+# Embeddings & Retrieval
+sentence-transformers>=2.3.0
+faiss-cpu>=1.7.4
+rank-bm25>=0.2.2
+
+# LLM - Google Gemini
+google-generativeai>=0.3.0
+
+# NLP & Text Processing
+tiktoken>=0.5.2
+nltk>=3.8.1
+underthesea>=6.7.0
+
+# Utilities
+tqdm>=4.66.0
+numpy>=1.26.0
+pandas>=2.2.0
+orjson>=3.9.0
+xxhash>=3.4.0
+datasketch>=1.6.0
+
+# Monitoring
+prometheus-client>=0.19.0
+
+# Development (optional - install with pip install -e ".[dev]")
+# pytest>=7.4.0
+# pytest-cov>=4.1.0
+# pytest-asyncio>=0.23.0
+# pytest-mock>=3.12.0
+# black>=24.1.0
+# ruff>=0.1.0
+# mypy>=1.8.0
+
