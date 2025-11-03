@@ -277,15 +277,6 @@ Edit `.env` to customize:
 - `OCR_LANGUAGES`: Tesseract langs (default: vie+eng)
 - `USE_TABLE_EXTRACTION`: Enable Camelot (default: true)
 
-## 📈 Performance
-
-On a typical CPU machine (Intel i7, 16GB RAM):
-- **Ingestion**: ~18 PDFs → ~500-1000 chunks → ~2-5 minutes
-- **Query latency**: 1.5-2.5 seconds (including LLM generation)
-  - Retrieval: ~150-300ms
-  - Reranking: ~100-200ms  
-  - LLM generation: ~1-2s
-- **Memory**: ~2-4GB during indexing, ~1-2GB for serving
 
 ## 🔒 Security
 
